@@ -1,4 +1,4 @@
-###Scrapping
+###Scrapping: establecer un link pass, establecer una pase de datos
 
 linkPage= "https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic"
 linkPath = '//*[@id="thetable"]'
@@ -31,6 +31,6 @@ coronavirus = coronavirus %>%
 
 View(coronavirus)
 
-###Análisis
+#analisis (agregar nota para probar)
 
 str(coronavirus)
